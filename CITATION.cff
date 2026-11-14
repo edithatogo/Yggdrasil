@@ -1,0 +1,12 @@
+# Citation File Format: https://citation-file-format.github.io/
+cff-version: 1.2.0
+message: If you use this software, please cite it using this metadata and record the commit
+  or release used.
+title: Yggdrasil
+authors:
+- name: Yggdrasil project
+  website: https://github.com/JuliaPackaging/Yggdrasil
+repository-code: https://github.com/edithatogo/Yggdrasil
+url: https://github.com/edithatogo/Yggdrasil
+abstract: This repository is a fork of JuliaPackaging/Yggdrasil. The upstream project retains
+  its authorship and attribution. Cite the exact repository revision used.
