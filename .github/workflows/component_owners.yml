@@ -19,6 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Auto Assign Owners
     steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@v2
+        with:
+          egress-policy: audit
+
       - uses: dyladan/component-owners@7ff2b343629407c4dbe1c28ae66f55f723543d2b # v0.2.0
         with:
           config-file: .github/component_owners.yml
